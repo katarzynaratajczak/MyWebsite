@@ -1,25 +1,20 @@
 <div class="text">
   <div class="menu">
-  <div class="home">HOME</div>
-  <div class="home">O NAS</div>
-  <div class="home">PORTFOLIO</div>
-  <div class="home">KONTAKT</div>
+  <a routerLink="/home" routerLinkActive="active" class="home">HOME</a>
+  <a routerLink="/about" routerLinkActive="active" class="home">O NAS</a>
+  <a routerLink="/portfolio" routerLinkActive="active" class="home">PORTFOLIO</a>
+  <a routerLink="/contact" routerLinkActive="active" class="home">KONTAKT</a>
 </div>
 </div>
-<div class="description">
-  <p>Witajcie na naszej stronie internetowej. Jest ona poświęcona programowaniu.
-    Znajdziecie tu projekty, które są dziełem naszej pracy.
-    Sami projektujemy wygląd aplikacji. Aspiracje czerpiemy z interesujących aprtykułów, zdjęć, książek.
-    Staramy się, aby nasze dzieła były wyjątkowe i nieprzeciętne.
-  </p>
-</div>
+<router-outlet></router-outlet>
 <div class="logo">
   <img [src]="fb">
 </div>
 <div class="logo2">
   <img [src]="in">
 </div>
-<div class="foto">
+<div class="logo3">
+  <img [src]="git">
 </div>
 <footer>
   <p>Wszelkie prawa zastrzeżone</p>

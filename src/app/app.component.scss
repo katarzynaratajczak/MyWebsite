@@ -23,6 +23,10 @@
   margin: 0 auto;
   width: 700px;
  }
+  a {
+color: white;
+text-decoration: none;
+  }
 
  .home {
    display: inline;
@@ -55,6 +59,12 @@ cursor: pointer;
   position: absolute;
   top: 180px;
   right: 10px;}
+
+  .logo3 {
+    position: absolute;
+    top: 260px;
+    right: 10px;}
+
 
  .foto{
    margin: 0 auto;
